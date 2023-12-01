@@ -1,0 +1,218 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: sans-serif;
+    
+}
+nav{
+    position:sticky;
+    top:0;
+    z-index:10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right,rgb(241, 153, 166),rgb(184, 78, 96)) ;
+   padding:0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    border-radius: 15px;
+
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.navbar-toggler{
+ outline: none !important;
+}
+
+#naslovna{
+    background-image: linear-gradient(to right,rgb(241,153,166),rgb(184, 78, 96)) ;
+    color:#fff;
+    padding-top: 8%;
+    
+
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle {
+    padding-left: 30px;
+    aspect-ratio: 1/1.25;
+    border-radius: 1000px;
+  }
+.grow:hover{
+    transform: scale(1.1); 
+}
+.bottom-img{
+    width:100%;
+}
+.bottom1-img{
+    width:100%;
+}
+.cc{
+    background-image: linear-gradient(to right,rgb(241,153,166),white) ;
+}
+
+
+#interesovanja{
+    padding:100px ;
+}
+.s-img{
+    padding-left: 20px;
+    width:150px;
+    margin-top: 20px;
+}
+
+.ss-img{
+    padding-left: 20px;
+    width:300px;
+    margin-top: 20px;
+
+}
+.t::before{
+    content: '';
+    background:rgb(184, 78, 96) ;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.t::after{
+    content: '';
+    background:rgb(184, 78, 96) ;
+    height: 10px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#postignuca{
+   margin:100px 0;
+    background-image: linear-gradient(to right,rgb(241,153,166),rgb(184, 78, 96)) ;
+    color:#fff;
+   
+   
+}
+.postignuca{
+    border-left: 4px solid rgb(72, 71, 71);
+    margin-top: 60px;
+    margin-bottom: 50px;
+   
+}
+.postignuca img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin:0 10px;
+}
+#kontakt{
+    background: #f8f9fa;
+    padding:100px 0;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+#footer{
+    background-image: linear-gradient(to right,rgb(241,153,166),rgb(184, 78, 96)) ;
+    color:#fff;
+
+}
+.footer-img{
+    width:100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+.progress_bar .pro-bar {
+    background: hsl(0, 0%, 97%);
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
+    height:4px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+.progress_bar .progress_bar_title{
+    color:#fff;
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+}
+.progress_bar .progress_number{
+    float: right;
+    margin-top: -24px;
+}
+.progress_bar .progress-bar-inner {
+    background-color: hsl(0, 0%, 88%);
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+}
+.progress_bar .progress-bar-inner:before {
+    content: "";
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    z-index: 1;
+}
+.progress_bar .progress-bar-inner:after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+}
