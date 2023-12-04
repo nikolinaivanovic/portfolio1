@@ -216,3 +216,18 @@ nav{
     right: -4px;
     top: -5px;
 }
+.f{
+    background-color: bisque;
+}
+.te{
+    color:palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+.ttt{
+    color:palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grow:hover{
+    transform: scale(1.1); 
+}

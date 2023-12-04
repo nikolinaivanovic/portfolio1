@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+.tt{
+    color:palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+.ttt{
+    color:palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grow:hover{
+    transform: scale(1.1); 
+}
